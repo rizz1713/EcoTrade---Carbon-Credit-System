@@ -1,0 +1,157 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    background-color: #f4f6f9;
+    color: #000080;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000080;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: normal;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #e0e5ec;
+    border-bottom: 2px solid #000080;
+}
+
+nav button {
+    background: none;
+    border: none;
+    padding: 15px 30px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.2em;
+    color: #000080;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+nav button:hover, nav button.active {
+    background-color: #000080;
+    color: #ffffff;
+}
+
+main {
+    padding: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.page {
+    display: none;
+}
+
+.page.active {
+    display: block;
+}
+
+h2 {
+    border-bottom: 1px solid #000080;
+    padding-bottom: 10px;
+    color: #000080;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+table, th, td {
+    border: 1px solid #000080;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #000080;
+    color: #ffffff;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input, .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #000080;
+    font-family: "Times New Roman", Times, serif;
+    box-sizing: border-box;
+}
+
+button.primary {
+    background-color: #000080;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+button.primary:hover {
+    background-color: #000050;
+}
+
+.dashboard-cards {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.card {
+    background-color: #ffffff;
+    border: 1px solid #000080;
+    padding: 20px;
+    flex: 1;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+    margin-top: 0;
+    font-size: 1.5em;
+}
+
+.card p {
+    font-size: 2em;
+    margin: 10px 0 0 0;
+    font-weight: bold;
+}
+
+#networkCanvas {
+    border: 1px solid #000080;
+    background-color: #ffffff;
+    width: 100%;
+    height: 400px;
+}
+
+.chart-container {
+    background-color: #ffffff;
+    border: 1px solid #000080;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
